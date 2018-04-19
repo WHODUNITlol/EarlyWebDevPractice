@@ -1,0 +1,36 @@
+body {
+    display: inline-block;
+    background-image: url(../images/flat%20earth%20theory.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    
+}
+
+
+h1 {
+    color: blue;
+    font-family: fantasy;
+    font-size: 40;
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+    margin: auto 600px;
+    
+}
+h3 {
+    color: white;
+    background-color: mediumseagreen;
+    font-family: serif;
+    text-align: center;
+    font-size: 36;
+    margin: auto 500px;
+}
+p {
+    color: white;
+    font-family: serif;
+    text-align: center;
+    background-color: black;
+    margin: auto 100px;
+}
