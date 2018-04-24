@@ -5,51 +5,51 @@ body {
     background-size:cover;
     background-attachment:fixed;
     background-repeat:no-repeat;
-    
+    margin: 0;
+    margin-top: 70px;
+    width: 100%;
 }
 
-
-h1 {
-    color: blue;
-    font-family: fantasy;
-    font-size: 60;
-    text-align: center;
-    background-color: aqua;
-    width: 1000;
-    border-radius: 50%;
-    margin-left: 200px;
-    padding: 30px;
-    
-}
-h3 {
-    color: white;
-    background-color: mediumseagreen;
-    font-family: serif;
-    text-align: center;
-    font-size: 36;
-    margin: auto 450px;
-    border-radius: 600px;
-    padding: 20px;
-}
-p {
-    color: white;
-    font-family: serif;
-    text-align: center;
-    background-color: black;
-    margin: auto 300px;
-    border-radius: 600px;
-    padding: 20px;
-    
-}
 ul {
     color: white;
     text-align: center;
     background-color: black;
-    margin: auto 500px;
+    margin: 0 auto;
     font-family: serif;
     border-radius: 500px;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
     width: 450px;
+    margin-bottom: 70px;
+    list-style-type: none;
+}
+
+#navBar {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+
+#navBar ul {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+#navBar ul li {
+    display: inline-block;
+    margin: 0 5%;
+}
+
+#navBar ul li:first-of-type {
+    margin-left: 10%;
+}
+
+#navBar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
 }

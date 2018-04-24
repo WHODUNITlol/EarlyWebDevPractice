@@ -1,0 +1,58 @@
+h1 {
+    color: blue;
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+    background-color: aqua;
+    width: 15%;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: white;
+    background-color: mediumseagreen;
+    font-family: serif;
+    text-align: center;
+    font-size: 36px;
+    margin: auto 400px;
+    border-radius: 600px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+    font-family: serif;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 600px;
+    padding: 25px;
+    margin-bottom: 70px;
+}
+
+img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#images {
+    text-align: center;
+}
+
+#quiz {
+    font-family: serif;
+    color: white;
+    background-color: darkslategray;
+}
+
+h4 {
+    display: inline-block;
+}
