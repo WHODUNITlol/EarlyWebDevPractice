@@ -14,7 +14,7 @@
     border-radius: 20px;
 }
 
-h4 {
+button {
     display: inline-block;
     text-align: center;
     margin: 5%;
@@ -24,4 +24,8 @@ h4 {
     height: 20%;
     color: black;
     vertical-align: bottom;
+}
+
+button:first-of-type {
+    margin-left: 10%;
 }
