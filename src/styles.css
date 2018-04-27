@@ -1,5 +1,4 @@
 body {
-    display: inline-block;
     background-image: url(../images/flat%20earth%20theory.jpg);
     background-position: center;
     background-size:cover;
@@ -31,6 +30,7 @@ ul {
     position: fixed;
     top: 0;
     margin: 0;
+    z-index: 10;
 }
 
 #navBar ul {
